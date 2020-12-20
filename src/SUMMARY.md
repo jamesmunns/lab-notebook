@@ -44,5 +44,5 @@
 - [Ideas](./ideas/intro.md)
     - [Standard PCB Sizes](./ideas/std-pcb.md)
     - [HIL Testing Theory](./ideas/hil-testing.md)
-- [Notes](./notes/intro.md)
 - [Other people's projects](./others/intro.md)
+- [Notes](./notes/intro.md)
