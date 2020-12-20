@@ -38,6 +38,7 @@
         - [PMOD](./parts/connectors/pmod.md)
         - [Qwiic/Stemma QT](./parts/connectors/qwiic.md)
         - [Aviation Plug](./parts/connectors/aviation.md)
+        - [USB-C](./parts/connectors/usb-c.md)
     - [Memory ICs](./parts/memory/intro.md)
         - [ESP-PSRAM64H](./parts/memory/esp-psram.md)
 - [Standards](./standards/intro.md)
