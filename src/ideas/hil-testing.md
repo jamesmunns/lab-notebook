@@ -4,7 +4,7 @@ I think that Hardware in the Loop testing breaks down into three "dimensions", o
 
 * **Interfaces** - or how you interact with your unit under test
 * **Behaviors** - or how your test adapter behaves over one or more **Interfaces**
-* **Paradigms** - or how your test is structured between the testing host and the testing adapter
+* **Paradigms** - or how your test is structured between the testing host and the testing adapter, usually guided by a balance of max acceptable latency and necessary automation required to reach lower latency numbers
 
 IMO, every test will be some combination of all three of these dimensions.
 
