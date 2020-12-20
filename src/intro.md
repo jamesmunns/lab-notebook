@@ -4,6 +4,8 @@ This is James' Labratory Notebook, which aims to be a collection of all of my th
 
 It is meant to be primarily useful for me to organize my thoughts, and potentially as reference material for sharing my notes with other people.
 
+If you would like a more "stream of consciousness" style view of what I am working on, consider [following me on twitter](https://twitter.com/bitshiftmask).
+
 Pull requests that add relevant details are welcome, pull requests that restructure, rearrange, or add details that aren't arbitrarily considered useful to me will not be accepted.
 
 This document is tracked on GitHub in [this repository](https://github.com/jamesmunns/lab-notebook).
