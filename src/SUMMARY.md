@@ -46,5 +46,6 @@
     - [Standard PCB Sizes](./ideas/std-pcb.md)
     - [HIL Testing Theory](./ideas/hil-testing.md)
 - [Other people's projects](./others/intro.md)
+- [Lore](./lore/intro.md)
 - [Notes](./notes/intro.md)
     - [2020-12-22](./notes/2020/2020-12-22.md)
