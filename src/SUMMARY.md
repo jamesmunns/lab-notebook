@@ -50,3 +50,4 @@
 - [Lore](./lore/intro.md)
 - [Notes](./notes/intro.md)
     - [2020-12-22](./notes/2020/2020-12-22.md)
+    - [2020-12-26](./notes/2020/2020-12-26.md)

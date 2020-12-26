@@ -30,6 +30,8 @@ The main project page for the LiPo Stamp is [hosted on GitHub](https://github.co
 
 ![Test Setup drawing](./lipo-test-setup-v01.jpeg)
 
+Implementation of the automated tester is currently going on in [this pull request](https://github.com/jamesmunns/lipo-stamp/pull/1)
+
 I plan to build a hardware in the loop test rig for the LiPo stamp. It will probably be a proto-version of the [KTA], though probably not strictly at the start.
 
 [KTA]: ./kta.md
@@ -105,3 +107,35 @@ I think I will need at least the following test cases for the board:
     * How to generate load at voltages below the cut-out voltage? We probably need to go as low as 2.5v to verify cut-out.
 
 [INA219 breakouts]: ./../parts/sensors/ina219.md
+
+## Test board pinout
+
+- I2C for the INA boards and Display?
+    - SCL
+        - PORTB-06
+    - SDA
+        - PORTB-07
+- Analog Inputs
+    - Battery+ (might be available on INA219?)
+        - ???
+    - 5v Source
+        - Also VBUS for the test system?
+            - Maybe not? Going through a regulator?
+        - ???
+    - 3v3 Reg Output
+        - ???
+    - VMax Output (May be greater than 5v!)
+        - Voltage Divider?
+        - ???
+- Digital Outputs
+    - 3v3-EN
+        - ???
+    - RELAY: 5v Input NO
+        - ???
+    - RELAY: Battery Input NO
+        - ???
+    - RELAY: WS2812 Panel Connection NO
+        - ???
+- SPI output
+    - WS2812b Panel
+        - PORTB-08
