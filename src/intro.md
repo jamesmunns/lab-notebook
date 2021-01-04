@@ -10,7 +10,7 @@ Pull requests that add relevant details are welcome, pull requests that restruct
 
 This document is tracked on GitHub in [this repository](https://github.com/jamesmunns/lab-notebook).
 
-This document was inspired by [whitequark](twitter.com/whitequark)'s [Lab Notebook](https://lab.whitequark.org/), though is structured on a topic basis, rather than on a chronological basis. Chronological notes can be found in the [Notes](./notes/intro.md) section.
+This document was inspired by [whitequark](https://twitter.com/whitequark)'s [Lab Notebook](https://lab.whitequark.org/), though is structured on a topic basis, rather than on a chronological basis. Chronological notes can be found in the [Notes](./notes/intro.md) section.
 
 ## License
 
