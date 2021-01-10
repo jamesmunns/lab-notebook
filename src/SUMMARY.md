@@ -47,6 +47,7 @@
     - [Standard PCB Sizes](./ideas/std-pcb.md)
     - [HIL Testing Theory](./ideas/hil-testing.md)
     - [Robot Face](./ideas/robot-face.md)
+    - [`emu-pac`](./ideas/emu-pac.md)
 - [Other people's projects](./others/intro.md)
 - [Lore](./lore/intro.md)
 - [Notes](./notes/intro.md)
