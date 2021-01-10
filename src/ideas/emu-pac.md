@@ -8,6 +8,10 @@ Ideally, this would allow people to create "fake" peripherals such as UART, SPI,
 
 Once an `emu-hal` has been built on top of the `emu-pac`, the usual `embedded-hal` portability techniques could be used to integrate "off the shelf" drivers.
 
+## Architecture Diagram
+
+![architecture diagram](./emu-pac-arch.jpg)
+
 ## Moving pieces
 
 This is a brainstorm of the pieces needed to make this happen.
