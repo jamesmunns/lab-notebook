@@ -6,6 +6,8 @@ Rather than using a more accurate tool for simulating an existing architecture, 
 
 Ideally, this would allow people to create "fake" peripherals such as UART, SPI, and I2C, that could be exposed via simulated PAC interactions.
 
+The idea would be to provide learning material, like the [Discovery Book](https://docs.rust-embedded.org/discovery/), based around this, so EVERYONE can learn a little embedded Rust (or at least the "higher in the stack" parts) without needing to buy specific hardware.
+
 Once an `emu-hal` has been built on top of the `emu-pac`, the usual `embedded-hal` portability techniques could be used to integrate "off the shelf" drivers.
 
 ## Prior Art
