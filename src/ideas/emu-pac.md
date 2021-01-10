@@ -8,6 +8,10 @@ Ideally, this would allow people to create "fake" peripherals such as UART, SPI,
 
 Once an `emu-hal` has been built on top of the `emu-pac`, the usual `embedded-hal` portability techniques could be used to integrate "off the shelf" drivers.
 
+## Prior Art
+
+This isn't a totally novel idea, RTOS' like RIOT-OS have a ["native" target](https://github.com/RIOT-OS/RIOT/wiki/Family:-native) that does something similar, though they simulate at the OS level. This is a similar technique, but moves the emulation layer down to the PAC, which I think could still be reasonable enough for Rust, where we still have the register interfaces to draw a boundary at, also sort of like [disasm](https://github.com/Disasm)'s [`avatar-rs`](https://github.com/Disasm/avatar-rs) does for passing CPU actions through to [probe-rs](https://probe.rs).
+
 ## Architecture Diagram
 
 ![architecture diagram](./emu-pac-arch.jpg)
@@ -20,7 +24,7 @@ This is a brainstorm of the pieces needed to make this happen.
     * One "main" thread that acts as the entry point
     * One thread for each interrupt
     * One thread for "hardware simulation", running concurrently to the "main" thread
-* An `AtomicUsize` based primitive for each hardware register
+* An `AtomicU32` based primitive for each hardware register
     * This allows for multi-threaded sharing of "registers" between interrupts, "main", and the simulation context
     * We may want to have some sort of shared global mutex to simulate non-concurrency between interrupts, e.g. a critical section prevents all interrupts from touching any registers
     * We may want some kind of "rate limiting" of register access (read or write) to make the operational speed somewhat more reasonable, e.g. only allow one access per (1/64MHz) time scale, at least from the main/interrupt threads
@@ -31,3 +35,13 @@ This is a brainstorm of the pieces needed to make this happen.
     * We probably want a "fake" RTT peripheral, which can be used for `rprintln` or `defmt` capabilities
 * A "board simulator", which would be a 2d or 3d rendering of the board and any connected components, allowing users to "see" things like LEDs blinking, motors spinning, etc. based on the operation of the emulated CPU
 * We probably need some kind of "notification system" where writes to certain registers can trigger behaviors, such as a peripheral starting operation
+
+## Unknowns
+
+There are a couple things I don't know how to handle, including:
+
+* Use of `svd2rust`
+    * Should we fake an svd2rust style interface?
+    * Or should we make an actual SVD to stay coupled?
+* How to build an `emu-rt` crate
+* How to add `rtic` support
