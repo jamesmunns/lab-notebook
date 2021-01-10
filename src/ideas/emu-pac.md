@@ -14,6 +14,13 @@ Once an `emu-hal` has been built on top of the `emu-pac`, the usual `embedded-ha
 
 This isn't a totally novel idea, RTOS' like RIOT-OS have a ["native" target](https://github.com/RIOT-OS/RIOT/wiki/Family:-native) that does something similar, though they simulate at the OS level. This is a similar technique, but moves the emulation layer down to the PAC, which I think could still be reasonable enough for Rust, where we still have the register interfaces to draw a boundary at, also sort of like [disasm](https://github.com/Disasm)'s [`avatar-rs`](https://github.com/Disasm/avatar-rs) does for passing CPU actions through to [probe-rs](https://probe.rs).
 
+Other projects to investigate:
+
+* [litex_sim](https://github.com/litex-hub/linux-on-litex-vexriscv):
+    * From disasm: "have you seen litex_sim? It emulates a full SoC with cycle accuracy. Some of the peripherals have "real world" connections, you can even talk via Ethernet. With verilator (or maybe even cxxrtl) it's possible to emulate this with a decent frequency. Also litex generates SVD for a SoC if you ask it"
+* [renode](https://github.com/renode/renode)
+    * [Platform Description](https://renode.readthedocs.io/en/latest/basic/describing_platforms.html)
+
 ## Architecture Diagram
 
 ![architecture diagram](./emu-pac-arch.jpg)
