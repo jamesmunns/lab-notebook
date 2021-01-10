@@ -1,6 +1,6 @@
 # Introduction
 
-This is James' Labratory Notebook, which aims to be a collection of all of my thoughts on the things that I am working on, researching, thinking about, etc.
+This is James' Laboratory Notebook, which aims to be a collection of all of my thoughts on the things that I am working on, researching, thinking about, etc.
 
 It is meant to be primarily useful for me to organize my thoughts, and potentially as reference material for sharing my notes with other people.
 
