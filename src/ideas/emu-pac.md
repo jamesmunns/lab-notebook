@@ -20,6 +20,8 @@ Other projects to investigate:
     * From disasm: "have you seen litex_sim? It emulates a full SoC with cycle accuracy. Some of the peripherals have "real world" connections, you can even talk via Ethernet. With verilator (or maybe even cxxrtl) it's possible to emulate this with a decent frequency. Also litex generates SVD for a SoC if you ask it"
 * [renode](https://github.com/renode/renode)
     * [Platform Description](https://renode.readthedocs.io/en/latest/basic/describing_platforms.html)
+* [TinyGo Preview](https://github.com/tinygo-org/vscode-tinygo/pull/1)
+    * [Twitter demo](https://twitter.com/aykevl/status/1331389825283395584)
 
 ## Architecture Diagram
 
