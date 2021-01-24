@@ -44,6 +44,8 @@
         - [Battery Clips](./parts/connectors/battery-clips.md)
     - [Memory ICs](./parts/memory/intro.md)
         - [ESP-PSRAM64H](./parts/memory/esp-psram.md)
+    - [Switches](./parts/switches/intro.md)
+        - [Kailh Choc Low Profile 1350s](./parts/switches/kailh-1350.md)
 - [Standards](./standards/intro.md)
 - [Ideas](./ideas/intro.md)
     - [Standard PCB Sizes](./ideas/std-pcb.md)

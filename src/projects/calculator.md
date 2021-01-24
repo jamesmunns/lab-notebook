@@ -15,7 +15,7 @@ I figured I'd try my hand at making a replacement for my old-school TI-83, and m
 
 ### Behavior
 
-See [Notes from 2021-01-22](./../notes/2021/2021-01-22.md) for the original KeyPad investigation.
+See [Notes from 2021-01-22](./../notes/2021/2021-01-22.md) for the original KeyPad investigation and brainstorming.
 
 So, I have a limited number of keys to use, so I started looking at what kind of keys I typically used in my Python REPL. It turns out, they were surprisingly low.
 
@@ -52,7 +52,7 @@ For the "Special" keys:
 
 ![choc keypad v1 render](./choc-keypad.png)
 
-Inspired by the [MNT Reform](https://mntre.com/media/reform_md/2020-05-08-the-much-more-personal-computer.html), I wanted to use low profile mechanical keys. Luckily, the hardware is [all open source](https://source.mntmn.com/MNT/reform), which means I could see the footprints, circuit, and spacing used.
+Inspired by the [MNT Reform](https://mntre.com/media/reform_md/2020-05-08-the-much-more-personal-computer.html), I wanted to use low profile mechanical keys. Luckily, the MNT Reform hardware is [all open source](https://source.mntmn.com/MNT/reform), which means I could see the footprints, circuit, and spacing used.
 
 I put together a 4x6 keyboard matrix PCB, with LEDs under each key, and a row of 19 LEDs at the bottom, maybe to use for palm lighting or notifications.
 
@@ -70,6 +70,8 @@ I plan to use:
 * [TCWIN 2020 Smart LEDs](https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TCWIN-TC2020RGB-3CJH-TX1812Z5_C784564.html)
     * These are used for the Key lighting as well as the bar at the bottom
     * They seem to take 5mA each, for a total of 215mA for the whole board (43 LEDs/board)
+
+See my parts pages for more details about the [switches and keycaps](./../parts/switches/kailh-1350.md), and for the [smart leds](./../parts/leds/smart-leds.md).
 
 I might use black keycaps for the numbers, and clear keycaps for the "meta" keys. TBD.
 
