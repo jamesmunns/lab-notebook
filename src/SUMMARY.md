@@ -12,6 +12,7 @@
     - [BBQueue](./projects/bbqueue.md)
     - [bitpool](./projects/bitpool.md)
     - [Brick Mount](./projects/brick-mount.md)
+    - [Calculator](./projects/calculator.md)
 - [Parts](./parts/intro.md)
     - [LEDs](./parts/leds/intro.md)
         - [Smart LEDs](./parts/leds/smart-leds.md)
@@ -67,3 +68,4 @@
     - [2021-01-19](./notes/2021/2021-01-19.md)
     - [2021-01-21](./notes/2021/2021-01-21.md)
     - [2021-01-21](./notes/2021/2021-01-21.md)
+    - [2021-01-22](./notes/2021/2021-01-22.md)
