@@ -8,6 +8,9 @@ Additionally, there are a couple things that I could probably stand to offload f
 * Unit Conversion
 * Alarm Clock
 * Timer
+* Counting mode
+* Time tracking (a la Vintage)
+* todo list/checklist
 
 I figured I'd try my hand at making a replacement for my old-school TI-83, and maybe make a REPL with CircuitPython or even a Rust based scripting language like RHAI.
 
@@ -29,7 +32,7 @@ So, I have a limited number of keys to use, so I started looking at what kind of
 * Arrows
 * Enter
 
-I came up with a 4x6 arrangement that I thought would be pretty reasonable:
+I came up with a 4x6 arrangement that I thought would be pretty reasonable (for a calculator):
 
 ```
 +   -   *   /
@@ -85,9 +88,24 @@ Right now, the Keyboard (minus LEGO mounting rails) takes up about 112.0mm x 80m
 
 Ideally, I'd find some sort of 4:3 ratio LCD or epaper display that has dimensions of rougly 60.0mm x 80.0mm. This would give a total device size of 172.0mm x 80mm, which is close enough to the target.
 
+For a low volume 4:3 screen, the [Adafruit TFT FeatherWing 3.5"](https://www.adafruit.com/product/3651) seems to be close to perfect, at 65.0mm x 85mm. It has a 480x320px screen, which should allow for a reasonable amount of visibility. It also has a resistive touchscreen, which would be a good secondary input interface.
+
 With a 16:9 ratio, I would have a display of 45.0mm x 80.0mm, which would give a total size of 157.0mm x 80mm, which would be almost exactly the size of my phone.
 
 I've also thought about mixing LCD and e-paper, think like an Accountant's calculator with the paper feed, but with e-paper instead of the paper reel (a single row of LCD/LED characters for quick updates, e-paper for history).
+
+## Batteries
+
+I think a single LiPo pouch cell is probably the best idea here. The battery width could be 70.0mm to 80mm pretty comfortably, as well as 110.0mm to 150.0mm, depending on the size of the display.
+
+For reference, Adafruit's [largest pouch cell](https://www.adafruit.com/product/328) is 2500mAh, at 62.5mm x 50.5mm x 8.1mm.
+
+## Scripting
+
+I'll probably want some kind of scripting language with support for UI/HW control. I think my best options at the moment are:
+
+* [Neotronian](https://github.com/Neotron-Compute/Neotronian) - from the Monotron/Neotron family, designed for constrained environments
+* [Rhai](https://github.com/rhaiscript/rhai/) - a configurable DSL/embedded scripting language
 
 ## Next Steps
 
