@@ -1,10 +1,14 @@
 # Brick Mount
 
-"Brick Mount" is a project to use LEGO bricks (or other similar building blocks) as a fundamental basis for laying out circuit boards and modules while prototyping.
+![Brick Mount Boards](./brick-fam.jpg)
 
-This is achieved by designing boards that have holes compatible with the "pegs" of a LEGO brick, e.g. 4.8mm pegs with a spacing of 8.0mm. With cheap board design services like OSHPark or JLCPCB, it is relatively straightforward to design these holes onto breakout boards or other assemblies.
+**Interested in the Brick Mount Boards? Do me a favor and [take my survey](https://forms.gle/3U6PXYUkDjB94iW77)!**
 
-This allows for arrangement of components into pretty much any 3d structure, and even prototyping (or shipping!) enclosures using LEGOs directly.
+"Brick Mount" is a project to use plastic building bricks as a fundamental basis for laying out circuit boards and modules while prototyping.
+
+This is achieved by designing boards that have holes compatible with the "pegs" of a brick, e.g. 4.8mm pegs with a spacing of 8.0mm. With cheap board design services like OSHPark or JLCPCB, it is relatively straightforward to design these holes onto breakout boards or other assemblies.
+
+This allows for arrangement of components into pretty much any 3d structure, and even prototyping (or shipping!) enclosures using plastic bricks directly.
 
 This idea is not original (and has likely been done many times before), but I was inspired by [LOOKMUMNOCOMPUTER](https://www.lookmumnocomputer.com/)'s [Kosmo Minis](https://store.lookmumnocomputer.com/collections/kosmo-minis) parts, which use exactly this scheme.
 
@@ -48,7 +52,7 @@ Each part has the following features:
 
 These features were based on [this page](https://grabcad.com/tutorials/lego-01-basic-dimensions-bricks-explained)'s CAD analysis of LEGO bricks.
 
-That's pretty much it. In my boards, I've left 0.25-0.50mm edge-cut clearance (inside the courtyard) to ensure that my boards will fit "inside" of the footprint of an actual lego brick.
+That's pretty much it. In my boards, I've left 0.25-0.50mm edge-cut clearance (inside the courtyard) to ensure that my boards will fit "inside" of the footprint of an actual brick.
 
 ## Current Board Designs
 
@@ -56,7 +60,8 @@ I've designed a couple of boards to test out working with this concept. These bo
 
 ### Feather Carrier - Small
 
-![Feather Small](./feather-small.png)
+![Feather Small Render](./feather-small.png)
+![Feather Small image](./2x4.jpg)
 
 This board is meant to mount to a single 2x4 brick. Because it mounts internally, it is probably best suited for boards that don't require a lot of movement, or for boards with a lot of top mounted buttons.
 
@@ -71,7 +76,8 @@ It features:
 
 ### Feather Carrier - Medium
 
-![Feather Medium](./feather-medium.png)
+![Feather Medium Render](./feather-medium.png)
+![Feather Medium Image](./4x6.jpg)
 
 This board is top and bottom mounted. It features additional cutouts for running wires within the 4x8 peg footprint, and has additional prototyping space.
 
@@ -87,7 +93,8 @@ It features:
 
 ### Feather Carrier - Large
 
-![Feather Large](./feather-large.png)
+![Feather Large Render](./feather-large.png)
+![Feather Large Image](./6x8.jpg)
 
 This board is side mounted. It features additional cutouts for running wires within the 6x8 peg footprint, and has additional prototyping space.
 
@@ -103,7 +110,8 @@ It features:
 
 ### Proto Board - Quarter
 
-![Proto Quarter](./proto-quarter.png)
+![Proto Quarter Render](./proto-quarter.png)
+![Proto Quarter Image](./4x8.jpg)
 
 This board is a general purpose prototyping board, inspired by the Adafruit [Perma Proto](https://www.adafruit.com/product/589) board.
 
@@ -119,7 +127,8 @@ It features:
 
 ### Proto Board - Half
 
-![Proto Half](./proto-half.png)
+![Proto Half Render](./proto-half.png)
+![Proto Half Image](./6x12.jpg)
 
 This board is a general purpose prototyping board, inspired by the Adafruit [Perma Proto](https://www.adafruit.com/product/1609) board.
 
