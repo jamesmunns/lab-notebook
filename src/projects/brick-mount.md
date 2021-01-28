@@ -77,7 +77,7 @@ It features:
 ### Feather Carrier - Medium
 
 ![Feather Medium Render](./feather-medium.png)
-![Feather Medium Image](./4x6.jpg)
+![Feather Medium Image](./4x8.jpg)
 
 This board is top and bottom mounted. It features additional cutouts for running wires within the 4x8 peg footprint, and has additional prototyping space.
 
@@ -111,7 +111,7 @@ It features:
 ### Proto Board - Quarter
 
 ![Proto Quarter Render](./proto-quarter.png)
-![Proto Quarter Image](./4x8.jpg)
+![Proto Quarter Image](./4x6.jpg)
 
 This board is a general purpose prototyping board, inspired by the Adafruit [Perma Proto](https://www.adafruit.com/product/589) board.
 
