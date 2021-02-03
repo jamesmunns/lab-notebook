@@ -94,6 +94,12 @@ With a 16:9 ratio, I would have a display of 45.0mm x 80.0mm, which would give a
 
 I've also thought about mixing LCD and e-paper, think like an Accountant's calculator with the paper feed, but with e-paper instead of the paper reel (a single row of LCD/LED characters for quick updates, e-paper for history).
 
+I could also consider using one of the Sharp transflective displays, though having some way of backlighting would probably be desirable. Joey Castillo uses these for his [PyCorder](https://blog.oshpark.com/2021/01/19/meet-the-pycorder/), which I think is the [2.7" Sharp Memory LCD LS027B7DH01A](https://www.digikey.com/short/4tr05m) which is $27 in singles. This display has an outline of 62.8mm x 42.82mm, and a 400x240px resolution.
+
+They also seem to offer a [4.4" Sharp Memory LCD LS044Q7DH01](https://www.sharpsde.com/products/displays/model/LS044Q7DH01/), though this is a bit lower resolution (320x240) strangely, and a bit big for my ideal (94.8mm x 75.2mm).
+
+Outside of Memory LCDs, Sharp also seems to have a 3.7" RGB option with the [LS037V7DW06](https://www.digikey.com/short/4tr0r8) and [LS037V7DW05](https://www.digikey.com/short/4tr0rn), though these are considerably more expensive at $70 or so, and are not currently in stock or available as singles, at least through Digikey. These also seem to require a parallel RGB interface, and higher current requirements.
+
 ## Batteries
 
 I think a single LiPo pouch cell is probably the best idea here. The battery width could be 70.0mm to 80mm pretty comfortably, as well as 110.0mm to 150.0mm, depending on the size of the display.
