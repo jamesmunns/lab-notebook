@@ -16,6 +16,12 @@ I figured I'd try my hand at making a replacement for my old-school TI-83, and m
 
 ## The Keypad
 
+<video
+    controls
+    src="https://delivery.jamescdn.com/jmng/calc-keypad-test.mp4">
+        Your browser does not support embedded video
+</video>
+
 ### Behavior
 
 See [Notes from 2021-01-22](./../notes/2021/2021-01-22.md) for the original KeyPad investigation and brainstorming.
