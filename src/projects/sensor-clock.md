@@ -29,6 +29,12 @@ The Seven Segment display rotates between:
 
 The ePaper display will be used to show a graph of the last 3- or 48-hours of CO2 levels.
 
+## Wiring
+
+![Wiring of the Sensor Clock](./sensor-clock-wiring.jpg)
+
+This is using two [Half Proto Boards](./brick-mount.md#proto-board---half) for the current prototype.
+
 ## Future Plans
 
 * Add notification LEDs
