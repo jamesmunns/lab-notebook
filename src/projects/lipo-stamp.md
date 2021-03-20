@@ -1,12 +1,14 @@
 # LiPo Stamp
 
-![LiPo Stamp Render](https://raw.githubusercontent.com/jamesmunns/lipo-stamp/main/assets/lipo-stamp.png)
+![LiPo Stamp Panel](./lipo-stamp-panel.jpg)
 
 The LiPo Stamp is a small sized, general purpose LiPo charge controller with power path and a 3v3 regulator. Currently the targeted size is 0.7" by 0.7", or just under 18mm square. It is intended to be used with single cell 18650, 21700, pack, or similar batteries.
 
 I intend to use this in projects such as [Kuma's Collar](./kuma-collar.md).
 
 ## Features
+
+![LiPo Stamp Render](https://raw.githubusercontent.com/jamesmunns/lipo-stamp/main/assets/lipo-stamp.png)
 
 * TP4056 Charge Controller
     * 500mA charging current
